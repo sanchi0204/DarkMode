@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/img_main"
+        android:src="@drawable/settings_illus"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/img_main"
+        android:layout_marginTop="20dp"
+        android:id="@+id/head_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_head"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor_main"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:layout_below="@+id/head_text"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sub_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_sub"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor_sub"
+        android:padding="10dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DarkModeJava</string>
+    <string name="sample_head">Lorem Ipsum</string>
+    <string name="sample_sub">This is the sample text to showcase the implementation of the dark mode in android apps with shared preferences to save the user preferences.</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="disable_dark_mode">Disable Dark Mode</string>
+</resources>
